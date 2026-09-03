@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+# solver + run artifacts
+optimization_run/
+MMC_LAMe.fem
+*.h3d
+*.out
+*.pch
+*.stat
+*.mvw
+*.res
+*.rs~
+*.interp
+os_ncpus.txt
+merged_decoupled.fem
+merge_run/
