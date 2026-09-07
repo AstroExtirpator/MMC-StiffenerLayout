@@ -1,6 +1,6 @@
 # MMC-StiffenerLayout
 
-This repository contains stiffener layout optimization code for stiffened composite panels, created as part of an MSc thesis titled "An Optimization and Design-for-Manufacturing Framework for Stiffened Composite Panels, Including Novel Morphological Filtering" by Flavio Claudio Padua at Delft University of Technology, in collaboration with Collins Aerospace.
+This repository contains stiffener layout optimization code for stiffened composite panels, created as part of an MSc thesis titled "An Optimization and Design-for-Manufacturing Framework for Stiffened Composite Panels, Including Novel Morphological Filtering" by Flavio Claudio Padua, Faculty of Aerospace Engineering, Delft University of Technology, in collaboration with Collins Aerospace (academic supervisor: Daniël Peeters; company supervisor: Ismet Baran).
 
 The software optimizes the layout of blade stiffeners on a composite panel skin using the Method of Moving Morphable Components (MMC), driving an iterative feedback loop between Python and Altair OptiStruct. Stiffener geometry is described explicitly by a small set of geometric design variables rather than by an element density field, so the converged result is a set of discrete members with defined positions, lengths, widths and orientations — no grayscale interpretation step is required.
 
